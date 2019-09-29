@@ -1,4 +1,5 @@
 # Statistics Theory
 ## Statistics Background
 ### Arithmetic Mean
-= Mean = Average
+= Mean = Average  
+=(∑x)/N 
