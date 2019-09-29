@@ -2,4 +2,5 @@
 ## Statistics Background
 ### Arithmetic Mean
 = Mean = Average  
-=(∑x)/N 
+= ∑x/N
+#### Advantages
