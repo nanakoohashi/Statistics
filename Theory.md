@@ -15,3 +15,4 @@ A data value that is either much greater than or much less than the rest of the 
 
 ### Median
 - Middle value in the sorted list of data values.
+= (N+1)/2
