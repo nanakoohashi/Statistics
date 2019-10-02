@@ -17,3 +17,4 @@ A data value that is either much greater than or much less than the rest of the 
 - Middle value in the sorted list of data values.  
 = (N+1)/2  
   - N = number of items in the list
+  - If no single middle exists, find the mean between the two middle items.
