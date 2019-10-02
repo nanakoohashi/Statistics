@@ -23,3 +23,4 @@ A data value that is either much greater than or much less than the rest of the 
 Not influenced by outliers.
 
 #### Disadvantages
+In a dataset without outliers, a less accurate measure of center.
