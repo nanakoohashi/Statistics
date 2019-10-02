@@ -20,3 +20,4 @@ A data value that is either much greater than or much less than the rest of the 
   - If no single middle exists, find the mean between the two middle items.
 
 #### Advantages
+Not influenced by outliers.
