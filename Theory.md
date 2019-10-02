@@ -21,3 +21,5 @@ A data value that is either much greater than or much less than the rest of the 
 
 #### Advantages
 Not influenced by outliers.
+
+#### Disadvantages
