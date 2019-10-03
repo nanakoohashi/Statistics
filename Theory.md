@@ -1,5 +1,6 @@
 # Statistics Theory
-## Statistics Background
+# Statistics Background
+## Measures of Center
 ### Arithmetic Mean
 = Mean = Average  
 = ∑x/N
