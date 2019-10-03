@@ -1,4 +1,3 @@
-# Statistics Theory
 # Statistics Background
 ## Measures of Center
 ### Arithmetic Mean
@@ -30,3 +29,5 @@ In a dataset without outliers, a less accurate measure of center.
 - The most frequently occurring value.
 - Much less commonly used than mean and median.
 *e.g. The mode of 1, 4, 4, 8, 8, 8, 9 is 8, because 8 appears more times than any other value. *
+
+## Measures of Spread
