@@ -26,3 +26,6 @@ Not influenced by outliers.
 In a dataset without outliers, a less accurate measure of center.
 
 ### Mode
+- The most frequently occurring value.
+- Much less commonly used than mean and median.
+*e.g. The mode of 1, 4, 4, 8, 8, 8, 9 is 8, because 8 appears more times than any other value. *
