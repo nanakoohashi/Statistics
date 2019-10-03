@@ -31,3 +31,4 @@ In a dataset without outliers, a less accurate measure of center.
 *e.g. The mode of 1, 4, 4, 8, 8, 8, 9 is 8, because 8 appears more times than any other value. *
 
 ## Measures of Spread
+### Minimum, Maximum, Range
