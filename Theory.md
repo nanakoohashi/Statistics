@@ -37,3 +37,4 @@ In a dataset without outliers, a less accurate measure of center.
 ### Mean Absolute Deviation (MAD)
 - The mean of the absolute difference between each value and the value's mean.
 - Absolute values (magnitudes) are used to avoid negative distances.
+### Variance and Standard Deviation
