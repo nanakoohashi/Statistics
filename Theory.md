@@ -39,3 +39,4 @@ In a dataset without outliers, a less accurate measure of center.
 - Absolute values (magnitudes) are used to avoid negative distances.
 ### Variance and Standard Deviation
 - Variance: Squares the difference between each value and value's mean.
+	(∑_(i=1)^n▒〖(d_i-mean)〗^2 )/(n-1)
