@@ -36,3 +36,4 @@ In a dataset without outliers, a less accurate measure of center.
 - A simple measure of spread is to report the **minimum** and **maximum** values as well as the **range**.
 ### Mean Absolute Deviation (MAD)
 - The mean of the absolute difference between each value and the value's mean.
+- Absolute values (magnitudes) are used to avoid negative distances.
