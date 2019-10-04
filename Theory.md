@@ -40,3 +40,5 @@ In a dataset without outliers, a less accurate measure of center.
 ### Variance and Standard Deviation
 - **Variance**: Squares the difference between each value and value's mean.
 - **Standard deviation**: The square root of the variance.
+
+## Histograms
