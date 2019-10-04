@@ -34,3 +34,4 @@ In a dataset without outliers, a less accurate measure of center.
 ### Minimum, Maximum, Range
 - Measures of Center **does not** indicate the **spread** of data values.
 - A simple measure of spread is to report the **minimum** and **maximum** values as well as the **range**.
+### Mean Absolute Deviation (MAD)
