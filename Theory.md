@@ -38,5 +38,5 @@ In a dataset without outliers, a less accurate measure of center.
 - The mean of the absolute difference between each value and the value's mean.
 - Absolute values (magnitudes) are used to avoid negative distances.
 ### Variance and Standard Deviation
-- Variance: Squares the difference between each value and value's mean.
-	(∑_(i=1)^n▒〖(d_i-mean)〗^2 )/(n-1)
+- **Variance**: Squares the difference between each value and value's mean.
+- **Standard deviation**: The square root of the variance.
