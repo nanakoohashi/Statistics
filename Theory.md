@@ -42,3 +42,5 @@ In a dataset without outliers, a less accurate measure of center.
 - **Standard deviation**: The square root of the variance.
 
 ## Histograms
+### Histogram with evenly-sized bins
+
