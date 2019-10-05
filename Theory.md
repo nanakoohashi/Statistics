@@ -46,3 +46,4 @@ In a dataset without outliers, a less accurate measure of center.
 #### Frequency Distribution
 A table that displays how often an outcome occurs for a sample.
 - **Construction**: The data set is divided into mutally exclusive classes.
+- **Class**: A value of a categorical variable OR an interval of a continuous variable.
