@@ -43,4 +43,4 @@ In a dataset without outliers, a less accurate measure of center.
 
 ## Histograms
 ### Histogram with evenly-sized bins
-
+#### Frequency Distribution
