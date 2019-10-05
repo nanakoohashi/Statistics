@@ -45,3 +45,4 @@ In a dataset without outliers, a less accurate measure of center.
 ### Histogram with evenly-sized bins
 #### Frequency Distribution
 A table that displays how often an outcome occurs for a sample.
+- **Construction**: The data set is divided into mutally exclusive classes.
