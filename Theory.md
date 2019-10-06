@@ -49,3 +49,4 @@ A table that displays how often an outcome occurs for a sample.
 - **Class**: A value of a categorical variable OR an interval of a continuous variable.
 - **Frequency**: The number of events or values that fall under each class.
 #### Histogram
+The most common graphical representation of a frequency distribution.
