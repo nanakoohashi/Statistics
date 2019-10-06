@@ -50,3 +50,4 @@ A table that displays how often an outcome occurs for a sample.
 - **Frequency**: The number of events or values that fall under each class.
 #### Histogram
 The most common graphical representation of a frequency distribution.
+- **Bin** Splits a continuous variable into a number of class intervals.
