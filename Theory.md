@@ -54,3 +54,4 @@ The most common graphical representation of a frequency distribution.
   - Includes value equal to or greater than the lower boundary, but less than the upper boundary (**lower <= value < upper**).
 ### Histogram bin size
 #### Goal of Histogram
+Estimate the probability density function of the continuous variable on the x-axis, i.e. to be able to **fit a smooth curve over the most rectangles**, while **minimizing the white space under the curve**.
