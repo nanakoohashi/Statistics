@@ -53,4 +53,4 @@ The most common graphical representation of a frequency distribution.
 - **Bin** Splits a continuous variable into a number of class intervals.
   - Includes value equal to or greater than the lower boundary, but less than the upper boundary (**lower <= value < upper**).
 ### Histogram bin size
-  
+#### Goal of Histogram
