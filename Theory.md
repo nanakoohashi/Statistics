@@ -55,3 +55,5 @@ The most common graphical representation of a frequency distribution.
 ### Histogram bin size
 #### Goal of Histogram
 Estimate the probability density function of the continuous variable on the x-axis, i.e. to be able to **fit a smooth curve over the most rectangles**, while **minimizing the white space under the curve**.
+- Multiple bin sizes should be attempted to determine the best distribution of the data.
+
