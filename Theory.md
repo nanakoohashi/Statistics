@@ -59,3 +59,4 @@ Estimate the probability density function of the continuous variable on the x-ax
 - Start with a bin size so that the number of bins = +- √N where N is the nubmer of values.
   - E.g. Officer Smith has 15 tickets -> √15 = 3.9 ≈ 4 bins. Since the maximum ticket speed is 28 mph over the limit, a good initial bin size would be 28/(4 bins) = 7 mph bins.
 ### Distribution Patterns
+- **Unimodal**: standard bell curve; one prevalent peak (mode) in histogram.
