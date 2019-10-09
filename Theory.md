@@ -57,3 +57,4 @@ The most common graphical representation of a frequency distribution.
 Estimate the probability density function of the continuous variable on the x-axis, i.e. to be able to **fit a smooth curve over the most rectangles**, while **minimizing the white space under the curve**.
 - Multiple bin sizes should be attempted to determine the best distribution of the data.
 - Start with a bin size so that the number of bins = +- √N where N is the nubmer of values.
+  - E.g. Officer Smith has 15 tickets -> √15 = 3.9 ≈ 4 bins. Since the maximum ticket speed is 28 mph over the limit, a good initial bin size would be 28/(4 bins) = 7 mph bins.
