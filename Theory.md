@@ -66,3 +66,4 @@ Estimate the probability density function of the continuous variable on the x-ax
 - **Skewed Right**: contains a mode on the left with a tail of low-frequency bins to the right.
 ### Histograms with unevenly-sized bins
 - **Unit Area Histograms** should be used to compare likelihoods of two unequally-sized bins.
+  - Rectable heights are equal to the bin/frequency/bin size.
