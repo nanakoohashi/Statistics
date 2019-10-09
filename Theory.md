@@ -64,3 +64,4 @@ Estimate the probability density function of the continuous variable on the x-ax
 - **Multimodal**: multiple prevalent mode.
 - **Skewed Left**: contains a mode on the right with a tail of low-frequency bins to the left.
 - **Skewed Right**: contains a mode on the left with a tail of low-frequency bins to the right.
+### Histograms with unevenly-sized bins
