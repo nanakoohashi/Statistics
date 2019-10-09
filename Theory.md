@@ -61,3 +61,4 @@ Estimate the probability density function of the continuous variable on the x-ax
 ### Distribution Patterns
 - **Unimodal**: standard bell curve; one prevalent peak (mode) in histogram.
 - **Bimodal**: two prevalent modes.
+- **Multimodal**: multiple prevalent mode.
