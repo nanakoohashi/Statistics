@@ -62,4 +62,5 @@ Estimate the probability density function of the continuous variable on the x-ax
 - **Unimodal**: standard bell curve; one prevalent peak (mode) in histogram.
 - **Bimodal**: two prevalent modes.
 - **Multimodal**: multiple prevalent mode.
-- **Skewed Right**: contains a mode on the right with a tail of low-frequency bins to the left.
+- **Skewed Left**: contains a mode on the right with a tail of low-frequency bins to the left.
+- **Skewed Right**: contains a mode on the left with a tail of low-frequency bins to the right.
