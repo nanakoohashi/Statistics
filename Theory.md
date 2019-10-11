@@ -68,3 +68,4 @@ Estimate the probability density function of the continuous variable on the x-ax
 - **Unit Area Histograms** should be used to compare likelihoods of two unequally-sized bins.
   - Rectable heights are equal to the bin/frequency/bin size.
 ## Experiments and Events
+### Experiments, outcomes, and sample spaces
