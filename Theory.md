@@ -70,4 +70,5 @@ Estimate the probability density function of the continuous variable on the x-ax
 ## Experiments and Events
 ### Experiments, outcomes, and sample spaces
 - **Experiment**: a procedure that results in one out of a number of possible outcomes.
-- **Outcome**: the result of an experiment
+- **Outcome**: the result of an experiment.
+- **Sample Space**: the set of all possible outcomes (e.g for dice: 1, 2, 3, 4, 5, 6).
