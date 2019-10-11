@@ -69,3 +69,4 @@ Estimate the probability density function of the continuous variable on the x-ax
   - Rectable heights are equal to the bin/frequency/bin size.
 ## Experiments and Events
 ### Experiments, outcomes, and sample spaces
+- **Experiment**: a procedure that results in one out of a number of possible outcomes.
