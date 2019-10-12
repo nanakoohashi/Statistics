@@ -74,3 +74,4 @@ Estimate the probability density function of the continuous variable on the x-ax
 - **Sample Space**: the set of all possible outcomes (e.g for dice: 1, 2, 3, 4, 5, 6).
 ### Events
 - **Events**: Subset of a sample space. E.g. for a dice roll, the event A is rolling an even number.  The event A occurs when a 2, 4, or 6 is rolled.
+  - **Compound Event**: Subset of the sample space consisting of more than one outcome. E.g. The event A is compound event since rolling an even number consists of three otucomes.
