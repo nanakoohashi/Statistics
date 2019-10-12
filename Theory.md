@@ -82,3 +82,4 @@ A rule that assigns a number to every outcome in the sample space of an experime
   
 Random variables can be **discrete** or **continuous**.
 - **Discrete random variable**: take on a countable number of distinct values like the integers between 0 and 100.
+- **Continuous random variable**: take on any value within a range of values like the real numbers between 0 and 100.
