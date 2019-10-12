@@ -81,3 +81,4 @@ Estimate the probability density function of the continuous variable on the x-ax
 A rule that assigns a number to every outcome in the sample space of an experiment. E.g. in the experiment of a coin toss, a random variable may assign 1 to Heads or 0 to Tails. A random variable is typically defined using a capital letter, such as X = 1 (H) amd X = 0 (T).  
   
 Random variables can be **discrete** or **continuous**.
+- **Discrete random variable**: take on a countable number of distinct values like the integers between 0 and 100.
