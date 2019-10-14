@@ -86,3 +86,4 @@ Random variables can be **discrete** or **continuous**.
 ### Discrete Probability Distributions: Probability Mass Functions
 **Probability Mass Function (pmf)**: the probability that a discrete random variable is exactly equal to some value (typically depicted as a table, plot, or equation).
 - The notation p(X=x) or p(x) us typically used or the pmf of X.
+- The probabilities assigned in a pmf are between 0 and 1, and the total probability must sum 1.
