@@ -85,3 +85,4 @@ Random variables can be **discrete** or **continuous**.
 - **Continuous random variable**: take on any value within a range of values like the real numbers between 0 and 100.
 ### Discrete Probability Distributions: Probability Mass Functions
 **Probability Mass Function (pmf)**: the probability that a discrete random variable is exactly equal to some value (typically depicted as a table, plot, or equation).
+- The notation p(X=x) or p(x) us typically used or the pmf of X.
