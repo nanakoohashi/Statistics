@@ -88,3 +88,4 @@ Random variables can be **discrete** or **continuous**.
 - The notation p(X=x) or p(x) us typically used or the pmf of X.
 - The probabilities assigned in a pmf are between 0 and 1, and the total probability must sum 1.
 ### Probability Distribution: Cumulative Distribtution Function
+**Cumulative Distribution Function (cdf)**: of a discrete random variable is the probability that x will fit in a **range** of values.
