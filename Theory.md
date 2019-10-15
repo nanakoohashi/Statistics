@@ -90,4 +90,4 @@ Random variables can be **discrete** or **continuous**.
 ### Probability Distribution: Cumulative Distribtution Function
 **Cumulative Distribution Function (cdf)**: of a discrete random variable is the probability that x will fit in a **range** of values.
 - Cdf sums each of the pmf values as you go along the table. The last entry should equal 1.
-- Notation: p(X ≤ x). 
+- Notation: F(x) where p(X ≤ x). 
