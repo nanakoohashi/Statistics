@@ -89,3 +89,4 @@ Random variables can be **discrete** or **continuous**.
 - The probabilities assigned in a pmf are between 0 and 1, and the total probability must sum 1.
 ### Probability Distribution: Cumulative Distribtution Function
 **Cumulative Distribution Function (cdf)**: of a discrete random variable is the probability that x will fit in a **range** of values.
+- Cdf sums each of the pmf values as you go along the table. The last entry should equal 1.
