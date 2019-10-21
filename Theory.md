@@ -92,3 +92,4 @@ Random variables can be **discrete** or **continuous**.
 - Cdf sums each of the pmf values as you go along the table. The last entry should equal 1.
 - Notation: F(x) where p(X ≤ x). 
 ## Properties of discrete probability distributions
+### Mean or expected value of a discrete random variable
