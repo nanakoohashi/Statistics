@@ -93,3 +93,4 @@ Random variables can be **discrete** or **continuous**.
 - Notation: F(x) where p(X ≤ x). 
 ## Properties of discrete probability distributions
 ### Mean or expected value of a discrete random variable
+Mean (≡ Expected Value): the sum of the possible values of X multiplied by the probability of the value.
