@@ -28,7 +28,7 @@ In a dataset without outliers, a less accurate measure of center.
 ### Mode
 - The most frequently occurring value.
 - Much less commonly used than mean and median.
-*e.g. The mode of 1, 4, 4, 8, 8, 8, 9 is 8, because 8 appears more times than any other value. *
+*e.g. The mode of 1, 4, 4, 8, 8, 8, 9 is 8, because 8 appears more times than any other value.*
 
 ## Measures of Spread
 ### Minimum, Maximum, Range
@@ -94,3 +94,4 @@ Random variables can be **discrete** or **continuous**.
 ## Properties of discrete probability distributions
 ### Mean or expected value of a discrete random variable
 Mean (≡ Expected Value): the sum of the possible values of X multiplied by the probability of the value.
+-	µ = E(X) = ∑▒〖x*p(x)〗
