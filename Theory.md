@@ -95,4 +95,5 @@ Random variables can be **discrete** or **continuous**.
 ### Mean or expected value of a discrete random variable
 Mean (≡ Expected Value): the sum of the possible values of X multiplied by the probability of the value.
 -	µ = E(X) = ∑▒〖x*p(x)〗
+- center of the distribution
 ### Variance and Standard Deviation of a discrete random variable
