@@ -101,3 +101,4 @@ Mean (≡ Expected Value): the sum of the possible values of X multiplied by the
 - Variance of a discrete random variable = spread of the distribution.
   - 	σ^2=V(X)= ∑▒〖(x-μ^2 )*p(x).〗
   - Is a weighted average with probabilities as the weights.
+  - units are in *unⅈts^2*.
