@@ -106,3 +106,4 @@ Mean (≡ Expected Value): the sum of the possible values of X multiplied by the
   - 	σ= √(σ^2 )
 ## Continuous probability distributions and properties
 ### Population density function (pdf)
+Describes the relative likelihood of all values for a continuous random variable.
