@@ -97,4 +97,5 @@ Mean (≡ Expected Value): the sum of the possible values of X multiplied by the
 -	µ = E(X) = ∑▒〖x*p(x)〗
 - center of the distribution
 ### Variance and Standard Deviation of a discrete random variable
-- Mean of discrete random variable = center of the distribution
+- Mean of discrete random variable = center of the distribution.
+- Variance of a discrete random variable = spread of the distribution.
