@@ -102,3 +102,4 @@ Mean (≡ Expected Value): the sum of the possible values of X multiplied by the
   - 	σ^2=V(X)= ∑▒〖(x-μ^2 )*p(x).〗
   - Is a weighted average with probabilities as the weights.
   - units are in *unⅈts^2*.
+- Standard deviation of a discrete random variable = measure of the spread in the units of the orginal random variable. It is the square root of the variance.
