@@ -105,3 +105,4 @@ Mean (≡ Expected Value): the sum of the possible values of X multiplied by the
 - Standard deviation of a discrete random variable = measure of the spread in the units of the orginal random variable. It is the square root of the variance.
   - 	σ= √(σ^2 )
 ## Continuous probability distributions and properties
+### Population density function (pdf)
