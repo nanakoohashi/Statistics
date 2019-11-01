@@ -114,3 +114,4 @@ Describes the relative likelihood of all values for a continuous random variable
 - Total area under curve must = 1
 ### Continuous distribution function (cdf) for continuous random variable
 The probability that for any number x, the observed value of the random variable will be at most x or p(X ≤ x).
+*Ex. When Casey does the housework, the cdf describes the probability of Casey finishing in time less than or equal to any value x, such as the probability X is less than or equal to 1.5*
