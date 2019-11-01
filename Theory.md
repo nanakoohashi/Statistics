@@ -116,3 +116,4 @@ Describes the relative likelihood of all values for a continuous random variable
 The probability that for any number x, the observed value of the random variable will be at most x or p(X ≤ x).
 *Ex. When Casey does the housework, the cdf describes the probability of Casey finishing in time less than or equal to any value x, such as the probability X is less than or equal to 1.5.*
 - The notation F(x) is typically used for the cdf.
+### Mean, variance, and standard deviation for continuous random variables
