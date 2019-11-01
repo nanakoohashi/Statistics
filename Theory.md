@@ -113,3 +113,4 @@ Describes the relative likelihood of all values for a continuous random variable
 - Must be non-negative (+).
 - Total area under curve must = 1
 ### Continuous distribution function (cdf) for continuous random variable
+The probability that for any number x, the observed value of the random variable will be at most x or p(X ≤ x).
