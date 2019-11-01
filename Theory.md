@@ -112,3 +112,4 @@ Describes the relative likelihood of all values for a continuous random variable
 - The area under portions of the curve given by the pdf provide the probabilities.
 - Must be non-negative (+).
 - Total area under curve must = 1
+### Continuous distribution function (cdf) for continuous random variable
