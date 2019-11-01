@@ -109,4 +109,4 @@ Mean (≡ Expected Value): the sum of the possible values of X multiplied by the
 Describes the relative likelihood of all values for a continuous random variable.
 *Ex. The amount of time for Casey to do his chores is a random variable, X, where all values between 1 hour and 2 hours are equally likely.*
 - **Notation**: f(x)
-
+- The area under portions of the curve given by the pdf provide the probabilities.
