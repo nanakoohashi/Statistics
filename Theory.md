@@ -121,3 +121,4 @@ The probability that for any number x, the observed value of the random variable
 -	The variance, σ^2, of a continuous random variable X is a measure of the spread of a distribution. The variance, like the mean, is a weighted average. The variance averages the squared distance of each possible value of X from the mean, with weights provided by the pdf. The units of the variance are the units of X squared. Ex: If X is money, in dollars, the variance of X is measured in dollars squared.
 -	The standard deviation, σ, is a measure of the spread of the distribution in the units of the original random variable. The standard deviation is the square root of the variance, σ=√(σ^2 ).
 ## Specific Distributions
+### Binomial Distribution
