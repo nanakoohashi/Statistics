@@ -117,3 +117,4 @@ The probability that for any number x, the observed value of the random variable
 *Ex. When Casey does the housework, the cdf describes the probability of Casey finishing in time less than or equal to any value x, such as the probability X is less than or equal to 1.5.*
 - The notation F(x) is typically used for the cdf.
 ### Mean, variance, and standard deviation for continuous random variables
+-	The mean or expected value E(X), µ, of a continuous random variable X is a measure of the center of the distribution. The mean is a weighted average of the possible values of the random variable, with the pdf providing the weights. Graphically, the mean is where a pivot is placed so that the pdf balances.
