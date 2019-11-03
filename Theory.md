@@ -118,3 +118,4 @@ The probability that for any number x, the observed value of the random variable
 - The notation F(x) is typically used for the cdf.
 ### Mean, variance, and standard deviation for continuous random variables
 -	The mean or expected value E(X), µ, of a continuous random variable X is a measure of the center of the distribution. The mean is a weighted average of the possible values of the random variable, with the pdf providing the weights. Graphically, the mean is where a pivot is placed so that the pdf balances.
+-	The variance, σ^2, of a continuous random variable X is a measure of the spread of a distribution. The variance, like the mean, is a weighted average. The variance averages the squared distance of each possible value of X from the mean, with weights provided by the pdf. The units of the variance are the units of X squared. Ex: If X is money, in dollars, the variance of X is measured in dollars squared.
