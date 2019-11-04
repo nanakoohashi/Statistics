@@ -126,3 +126,4 @@ Models how many times an event occurs in a certain number of trials, with the im
 -	*Ex. A basketball player is fouled on a 3 point shot attempt and awarded 3 free throws. A binomial distribution models the number of free throws the player makes out of three. The probability the player is successful on each attempt, based on his season average, is 0.75.*
 - **Models**: number of times an event occurs in a certain number of trials.
 - **Notation**: X  ~ Bin(n,p)
+  - **Bernoulli distribution**: binomial distribution with n=1
