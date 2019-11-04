@@ -122,3 +122,4 @@ The probability that for any number x, the observed value of the random variable
 -	The standard deviation, σ, is a measure of the spread of the distribution in the units of the original random variable. The standard deviation is the square root of the variance, σ=√(σ^2 ).
 ## Specific Distributions
 ### Binomial Distribution
+Models how many times an event occurs in a certain number of trials, with the important assumption that the probability of the event occurs is the same for each trial.
