@@ -123,3 +123,4 @@ The probability that for any number x, the observed value of the random variable
 ## Specific Distributions
 ### Binomial Distribution
 Models how many times an event occurs in a certain number of trials, with the important assumption that the probability of the event occurs is the same for each trial.
+-	*Ex. A basketball player is fouled on a 3 point shot attempt and awarded 3 free throws. A binomial distribution models the number of free throws the player makes out of three. The probability the player is successful on each attempt, based on his season average, is 0.75.*
