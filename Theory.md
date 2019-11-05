@@ -133,3 +133,4 @@ Models how many times an event occurs in a certain number of trials, with the im
 - **Possible values**: x= 0, 1....n. 
 - **Key quantities**
   - **Mean**: n * p
+  - **Variance**: n * p(1-p)
