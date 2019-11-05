@@ -134,3 +134,4 @@ Models how many times an event occurs in a certain number of trials, with the im
 - **Key quantities**
   - **Mean**: n * p
   - **Variance**: n * p(1-p)
+### Discrete Distributions
