@@ -130,3 +130,4 @@ Models how many times an event occurs in a certain number of trials, with the im
   - **Parameters**: 
     - n= number of trials
     - p= probability of the event occurring on each trial; the probability is assumed the same on each trial, and trials are independent.
+  - possible values: x= 0, 1....n. 
