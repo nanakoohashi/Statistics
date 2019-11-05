@@ -127,3 +127,6 @@ Models how many times an event occurs in a certain number of trials, with the im
 - **Models**: number of times an event occurs in a certain number of trials.
 - **Notation**: X  ~ Bin(n,p)
   - **Bernoulli distribution**: binomial distribution with n=1
+  - **Parameters**: 
+    - n= number of trials
+    - p= probability of the event occurring on each trial; the probability is assumed the same on each trial, and trials are independent.
