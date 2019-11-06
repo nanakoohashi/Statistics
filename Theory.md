@@ -139,3 +139,5 @@ Used when binomial distribution is not a good choice. Includes Poisson, negative
 #### Poisson Distribution
 - **Models**: The number of events that occurs in an interval; counts. *Ex. The number of emails received each day*.
 - **Notation**: X ~ Poisson(µ)
+- **Parameters**:
+  -**µ**: Mean(average) number of events per interval.
