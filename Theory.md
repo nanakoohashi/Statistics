@@ -141,3 +141,5 @@ Used when binomial distribution is not a good choice. Includes Poisson, negative
 - **Notation**: X ~ Poisson(µ)
 - **Parameters**:
   -**µ**: Mean(average) number of events per interval.
+- **Assumptions**:
+  - The average in each interval is the same.
