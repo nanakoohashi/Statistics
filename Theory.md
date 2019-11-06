@@ -130,9 +130,10 @@ Models how many times an event occurs in a certain number of trials, with the im
   - **Parameters**: 
     - n= number of trials
     - p= probability of the event occurring on each trial; the probability is assumed the same on each trial, and trials are independent.
-- **Possible values**: x= 0, 1....n. 
+- **Possible values**: x= 0, 1...n. 
 - **Key quantities**
   - **Mean**: n * p
   - **Variance**: n * p(1-p)
 ### Discrete Distributions
 Used when binomial distribution is not a good choice. Includes Poisson, negative binomial, and hypergeometric distributions.
+#### Poisson Distribution
