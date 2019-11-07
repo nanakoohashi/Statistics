@@ -134,9 +134,9 @@ Models how many times an event occurs in a certain number of trials, with the im
 - **Key quantities**
   - **Mean**: n * p
   - **Variance**: n * p(1-p)
-### Discrete Distributions
+### Discrete distributions
 Used when binomial distribution is not a good choice. Includes Poisson, negative binomial, and hypergeometric distributions.
-#### Poisson Distribution
+#### Poisson distribution
 - **Models**: The number of events that occurs in an interval; counts. *Ex. The number of emails received each day*.
 - **Notation**: X ~ Poisson(µ)
 - **Parameters**:
@@ -148,3 +148,4 @@ Used when binomial distribution is not a good choice. Includes Poisson, negative
 - **Key quantities**:
   - **Mean**: E(X) = µ.
   - **Variance**: σ^2 = Var(X) = µ.
+#### Negative binomial distribution
