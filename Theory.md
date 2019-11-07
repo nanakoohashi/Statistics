@@ -147,3 +147,4 @@ Used when binomial distribution is not a good choice. Includes Poisson, negative
 - **Possible values**: x = 0, 1, ...
 - **Key quantities**:
   - **Mean**: E(X) = µ.
+  - **Variance**: σ^2 = Var(X) = µ.
