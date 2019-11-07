@@ -144,3 +144,4 @@ Used when binomial distribution is not a good choice. Includes Poisson, negative
 - **Assumptions**:
   - The average in each interval is the same.
   - The count in one interval is independent of the count in other intervals.
+- **Possible values**: x = 0, 1, ...
