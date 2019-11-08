@@ -149,3 +149,4 @@ Used when binomial distribution is not a good choice. Includes Poisson, negative
   - **Mean**: E(X) = µ.
   - **Variance**: σ^2 = Var(X) = µ.
 #### Negative binomial distribution
+- **Models**: The number of failures in a sequence of trials before an even occurs a specified number of times. *Ex. The number of non-junk emails received before 10 junk emails are received.*
