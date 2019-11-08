@@ -150,3 +150,5 @@ Used when binomial distribution is not a good choice. Includes Poisson, negative
   - **Variance**: σ^2 = Var(X) = µ.
 #### Negative binomial distribution
 - **Models**: The number of failures in a sequence of trials before an even occurs a specified number of times. *Ex. The number of non-junk emails received before 10 junk emails are received.*
+- **Notation**: X ~ NB(s,p)  
+The NB distribution with s = 1 is also known as **geometric distribution***.
