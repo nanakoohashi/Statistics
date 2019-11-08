@@ -155,3 +155,4 @@ The NB distribution with s = 1 is also known as **geometric distribution**.
 - **Parameters**:
   - s: The number of times the event must occur (the number of successes).
   - p: Probability of the event occurring (success) on each trial; assumed the same.
+- **Possible values**: x = 0, 1, ...
