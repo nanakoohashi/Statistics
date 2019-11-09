@@ -159,3 +159,4 @@ The NB distribution with s = 1 is also known as **geometric distribution**.
 - **Key quantities**:
   - **Mean**: µ = E(X) = s/p
   - **Variance**: σ^2 = Var(X) = s(1-p)/p^2
+#### Hypergeometric distribution
