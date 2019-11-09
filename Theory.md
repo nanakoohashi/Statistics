@@ -166,3 +166,5 @@ The NB distribution with s = 1 is also known as **geometric distribution**.
   - k: Number of trials (draws)
   - n: Number of possible events in the population
   - N: Number in the population
+- **Possible values**: x = max(0, n + k - N), ... min(k,n).
+
