@@ -162,3 +162,7 @@ The NB distribution with s = 1 is also known as **geometric distribution**.
 #### Hypergeometric distribution
 - **Models**: The number of events in a certain number of trials (draws) when each trial is a new selection from a finite population. Once selected, an item is no longer available for selection (known as "draws without replacement"). *Ex. The number of players from the AFC (one of two conferences) randomly selected for a fantasy football team.*
 - **Notation**: X ~ Hypergeo(k, n, N)
+- **Parameters**:
+  - k: Number of trials (draws)
+  - n: Number of possible events in the population
+  - N: Number in the population
