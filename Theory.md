@@ -171,3 +171,4 @@ The NB distribution with s = 1 is also known as **geometric distribution**.
   - **Mean**: µ = E(X) = n.k/N
   - **Variance**:   σ^2 = Var(X) = n.k.(N-k)(n-n)/N^2(N-1)
 ### Normal distribution
+A continuous probability distribution characterized by a bell-shaped pdf and is symmetric around the mean, µ.
