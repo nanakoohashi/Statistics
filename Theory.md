@@ -169,4 +169,4 @@ The NB distribution with s = 1 is also known as **geometric distribution**.
 - **Possible values**: x = max(0, n + k - N), ... min(k,n).
 - **Key quantities**:
   - **Mean**: µ = E(X) = n.k/N
-  
+  - **Variance**:   σ^2 = Var(X) = n.k.(N-k)(n-n)/N^2(N-1)
