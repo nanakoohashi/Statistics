@@ -174,3 +174,4 @@ The NB distribution with s = 1 is also known as **geometric distribution**.
 A continuous probability distribution characterized by a bell-shaped pdf and is symmetric around the mean, µ.
 - 68% of the population is within 1 standard deviation of the mean of hte normal distribution.
 - 95% of the population is within 2 standard deviations of the mean of the normal distribution.
+### Contiunous distributions
