@@ -175,3 +175,5 @@ A continuous probability distribution characterized by a bell-shaped pdf and is 
 - 68% of the population is within 1 standard deviation of the mean of hte normal distribution.
 - 95% of the population is within 2 standard deviations of the mean of the normal distribution.
 ### Contiunous distributions
+For situations when the normal distribution is not a good choice.
+- Choosing the distribution requires assumpations and key quantities such as mean and variance, shape of pdf.
