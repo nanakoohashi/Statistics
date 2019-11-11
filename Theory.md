@@ -179,3 +179,4 @@ For situations when the normal distribution is not a good choice.
 - Choosing the distribution requires assumpations and key quantities such as mean and variance, shape of pdf.
 #### Exponential distributions
 - **Models**: Time between events. *Ex. The time until the next bus arrives at a bus stop.*
+- **Notation**: X ~ Exp(ʎ)
