@@ -180,3 +180,4 @@ For situations when the normal distribution is not a good choice.
 #### Exponential distributions
 - **Models**: Time between events. *Ex. The time until the next bus arrives at a bus stop.*
 - **Notation**: X ~ Exp(ʎ)
+- **Parameter**: ʎ: Rate of arrivals. *Ex. Buses arrive at a rate of ʎ = 4 per hour.*
