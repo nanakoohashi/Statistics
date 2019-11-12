@@ -184,3 +184,4 @@ For situations when the normal distribution is not a good choice.
 - **Possible values**: all values ≥ 0.
 - **Mean and variance**: E(X) = 1/ʎ, Var(X) = 1/ʎ^2
 #### Beta distribution
+- **Models**: Probability for proportions; flexible model for situations where possible values are in a range (generally 0 to 1). *Ex. The percentage of the day that will be sunny.*
