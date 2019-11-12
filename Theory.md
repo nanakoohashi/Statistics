@@ -182,3 +182,4 @@ For situations when the normal distribution is not a good choice.
 - **Notation**: X ~ Exp(ʎ)
 - **Parameter**: ʎ: Rate of arrivals. *Ex. Buses arrive at a rate of ʎ = 4 per hour.*
 - **Possible values**: all values ≥ 0.
+- **Mean and variance**: E(X) = 1/ʎ, Var(X) = 1/ʎ^2
