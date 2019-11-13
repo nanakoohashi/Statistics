@@ -187,3 +187,4 @@ For situations when the normal distribution is not a good choice.
 - **Models**: Probability for proportions; flexible model for situations where possible values are in a range (generally 0 to 1). *Ex. The percentage of the day that will be sunny.*
 - **Notation**: X ~ Beta(α,β)
 - **Parameters**: α, β are shape parameters, both must be greater than 0. Sometimes additional parameters a and b are included if the range of values modeled is from a to b rather than 0 to 1.
+- **Possible values**: All values between 0 and 1 (or a and b if additiona parameters added).
