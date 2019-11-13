@@ -191,3 +191,4 @@ For situations when the normal distribution is not a good choice.
 - **Mean and variance**: E(X) = α/(α + β), Var(X) = α.β/(α + β)^2.(α + β + 1) 
 #### Uniform distribution
 - **Models**: Possible values fall in arange with equal probabilities; often used to produce a random number. *Ex: The calbe repair technician provides a time window from 9 to 11 am for arrival and all times in the interval are equally possible.*
+- **Notation**: X ~ U(a,b)
