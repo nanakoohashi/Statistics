@@ -188,3 +188,4 @@ For situations when the normal distribution is not a good choice.
 - **Notation**: X ~ Beta(α,β)
 - **Parameters**: α, β are shape parameters, both must be greater than 0. Sometimes additional parameters a and b are included if the range of values modeled is from a to b rather than 0 to 1.
 - **Possible values**: All values between 0 and 1 (or a and b if additiona parameters added).
+- **Mean and variance**: E(X) = α/(α + β), Var(X) = α.β/(α + β)^2.(α + β + 1) 
