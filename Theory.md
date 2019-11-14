@@ -195,3 +195,4 @@ For situations when the normal distribution is not a good choice.
 - **Parameters**: a is the minimum possible value and b the maximum.
 - **Possible values**: All values between a and b.
 - **Mean and variance**: E(X) = (a+b)/2, Var(X) = (b-a)^2/12.
+#### Triangular distribution
