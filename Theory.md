@@ -193,3 +193,4 @@ For situations when the normal distribution is not a good choice.
 - **Models**: Possible values fall in arange with equal probabilities; often used to produce a random number. *Ex: The calbe repair technician provides a time window from 9 to 11 am for arrival and all times in the interval are equally possible.*
 - **Notation**: X ~ U(a,b)
 - **Parameters**: a is the minimum possible value and b the maximum.
+- **Possible values**: All values between a and b.
