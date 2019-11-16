@@ -198,3 +198,4 @@ For situations when the normal distribution is not a good choice.
 #### Triangular distribution
 - **Models**: Possible values fall in arange and one value in the range is considered most likely. *Ex. The return on investment is thought to range from 0 to 10% with the most likely value 7%.*
 - **Notation**: X ~ Triangle(a,c,b)
+- **Parameters**: a is the minimum possible value and b the maximum. The value c (which must be in the range of a to b) is the most likely value.
