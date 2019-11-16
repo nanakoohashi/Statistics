@@ -200,3 +200,4 @@ For situations when the normal distribution is not a good choice.
 - **Notation**: X ~ Triangle(a,c,b)
 - **Parameters**: a is the minimum possible value and b the maximum. The value c (which must be in the range of a to b) is the most likely value.
 - **Possible values**: All values between a and b.
+- **Mean and variance**: E(X) = (a+b+c)/3, Var(X) = (a^2 + b^2 + c^2 + ab - ac - bc)/18 
