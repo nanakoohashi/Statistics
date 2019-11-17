@@ -203,3 +203,4 @@ For situations when the normal distribution is not a good choice.
 - **Mean and variance**: E(X) = (a+b+c)/3, Var(X) = (a^2 + b^2 + c^2 + ab - ac - bc)/18 
 ## Hypothesis Testing
 ### Statistical significance: An informal introduction
+Are the sample statistics extreme enough to infer a conclusion about the population?
