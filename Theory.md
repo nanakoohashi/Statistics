@@ -204,3 +204,4 @@ For situations when the normal distribution is not a good choice.
 ## Hypothesis Testing
 ### Statistical significance: An informal introduction
 Are the sample statistics extreme enough to infer a conclusion about the population?
+- If p-value < 0.05 it is statistically significant at level alpha.
