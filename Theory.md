@@ -206,3 +206,4 @@ For situations when the normal distribution is not a good choice.
 Are the sample statistics extreme enough to infer a conclusion about the population?
 - If p-value < 0.05 it is statistically significant at level alpha and two possibilities exist:
   - The null hypothesis is true and the observed data is relatively unusual with an extreme sample statistic that is simply due to chance.
+  - The null hypothesis is false and the alternative hypothesis provides a more reasonable explanation for the population parameter.
