@@ -208,4 +208,4 @@ Are the sample statistics extreme enough to infer a conclusion about the populat
   - The null hypothesis is true and the observed data is relatively unusual with an extreme sample statistic that is simply due to chance.
   - The null hypothesis is false and the alternative hypothesis provides a more reasonable explanation for the population parameter.
 ### Hypothesis Test Errors
-
+- **Type I error**: True null hypothesis is rejected.
