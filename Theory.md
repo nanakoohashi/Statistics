@@ -211,3 +211,4 @@ Are the sample statistics extreme enough to infer a conclusion about the populat
 - **Type I error**: True null hypothesis is rejected.
 - **Type II error**: False null hypothesis is accepted.
 ## Confidence Intervals
+A range of values believed to include a population parameter at a stated level of confidence.
