@@ -210,3 +210,4 @@ Are the sample statistics extreme enough to infer a conclusion about the populat
 ### Hypothesis Test Errors
 - **Type I error**: True null hypothesis is rejected.
 - **Type II error**: False null hypothesis is accepted.
+## Confidence Intervals
