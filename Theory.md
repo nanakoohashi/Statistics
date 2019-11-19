@@ -212,3 +212,4 @@ Are the sample statistics extreme enough to infer a conclusion about the populat
 - **Type II error**: False null hypothesis is accepted.
 ## Confidence Intervals
 A range of values believed to include a population parameter at a stated level of confidence.
+- **Construction**: sample statistic and margin of error.
