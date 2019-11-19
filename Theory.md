@@ -213,3 +213,4 @@ Are the sample statistics extreme enough to infer a conclusion about the populat
 ## Confidence Intervals
 A range of values believed to include a population parameter at a stated level of confidence.
 - **Construction**: sample statistic and margin of error.
+  - **Margin of error (MOE)**: range of values above and below the sample statistic.
