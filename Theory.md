@@ -212,6 +212,7 @@ Are the sample statistics extreme enough to infer a conclusion about the populat
 - **Type II error**: False null hypothesis is accepted.
 ## Confidence Intervals
 A range of values believed to include a population parameter at a stated level of confidence.
-- **Construction**: sample statistic and margin of error.
+- **Construction**: sample statistic and margin of error (of population mean).
   - **Margin of error (MOE)**: range of values above and below the sample statistic.
     - MOE = z* σ/√n
+      -z*= critical value that depends on the type of test (one-sided vs. two sided).
