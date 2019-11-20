@@ -220,4 +220,6 @@ A range of values believed to include a population parameter at a stated level o
       - larger sample sizes  = narrower confidence interval (because of smaller MOE).
 ## Comparing two population means
 An analyst commonly seeks to determin whether two samples are from populations with the same population means.
-- A **large difference** in two **sample means**, relative to the **sample standard deviations** suggest the population means may be different.
+- A **large difference** in two **sample means**, relative to the **sample standard deviations** suggest the population means may be different. The difference depends on:
+  - Standard deviations of the two populations.
+  - Sample sizes.
