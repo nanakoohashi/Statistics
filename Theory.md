@@ -218,3 +218,4 @@ A range of values believed to include a population parameter at a stated level o
       - z* = critical value that depends on the type of test (one-sided vs. two sided) and the significance level α.
       - α = probability of a type I error
       - larger sample sizes  = narrower confidence interval (because of smaller MOE).
+## Comparing two population means
