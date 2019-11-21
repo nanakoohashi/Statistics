@@ -224,5 +224,5 @@ An analyst commonly seeks to determin whether two samples are from populations w
   - Standard deviations of the two populations.
   - Sample sizes.
 - The sample standard deviations estimate the population standard deviations:
-  - Relatively large sample standard deviations require a relatively large difference between the sample means to infer a statistically significant difference in population means.
-  -
+  - Relatively large sample standard deviations require a relatively large difference between the sample means to infer a statistically significant difference in population means;
+  - Relatively small sample standard deviations require a relatively small difference between the sample means to infer a statistically significant difference in population means.
