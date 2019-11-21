@@ -229,3 +229,6 @@ An analyst commonly seeks to determin whether two samples are from populations w
 # Parametric Analysis
 ## Parameterized population models 
 ### Parametric Analysis
+- **Parameter**: Characteristics of a population
+  - Population parameters are almost always unknown ∴ sampling is performed to obtain a parameter’s estimator.
+- **Statistic**: Characteristic of a sample
