@@ -169,7 +169,7 @@ The NB distribution with s = 1 is also known as **geometric distribution**.
 - **Possible values**: x = max(0, n + k - N), ... min(k,n).
 - **Key quantities**:
   - **Mean**: µ = E(X) = n.k/N
-  - **Variance**:   σ^2 = Var(X) = n.k.(N-k)(n-n)/N^2(N-1)
+  - **Variance**: σ^2 = Var(X) = n.k.(N-k)(n-n)/N^2(N-1)
 ### Normal distribution ≡ Gaussian Distribution 
 A continuous probability distribution characterized by a bell-shaped pdf and is symmetric around the mean, µ.
 - 68% of the population is within 1 standard deviation of the mean of hte normal distribution.
@@ -229,6 +229,18 @@ An analyst commonly seeks to determin whether two samples are from populations w
 # Parametric Analysis
 ## Parameterized population models 
 ### Parametric Analysis
+**Normally distributed**
 - **Parameter**: Characteristics of a population
   - Population parameters are almost always unknown ∴ sampling is performed to obtain a parameter’s estimator.
 - **Statistic**: Characteristic of a sample
+- **Common Statistics and Parameters
+  -**Statistic**
+    - ̅x: sample mean
+    - s: sample standard deviation
+    - s^2: sample variance
+    - ̂p: sample proportion
+  -**Parameter**
+    - µ: population mean
+    - σ: population standard deviation
+    - σ^2: population variance
+    - p: population proportion
