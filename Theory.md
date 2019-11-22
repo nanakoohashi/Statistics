@@ -249,3 +249,5 @@ An analyst commonly seeks to determin whether two samples are from populations w
 -	**Paired t-test** - used to compare two population means in the case where the two samples are dependent.
 -	**Two-way t-test** - determines whether the population means are equal.
 -	**Analysis of variance (ANOVA)** - determines whether the means of two or more populations are equal.
+### Normal Distribution
+A bell-shaped probability distribution with two parameters: the mean (µ) and standard deviation (σ).
