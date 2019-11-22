@@ -244,3 +244,8 @@ An analyst commonly seeks to determin whether two samples are from populations w
     - σ: population standard deviation
     - σ^2: population variance
     - p: population proportion
+### Parametric tests
+-	**One-way t-test** - determines whether the hypothesized mean is equal to the true population mean.
+-	**Paired t-test** - used to compare two population means in the case where the two samples are dependent.
+-	**Two-way t-test** - determines whether the population means are equal.
+-	**Analysis of variance (ANOVA)** - determines whether the means of two or more populations are equal.
