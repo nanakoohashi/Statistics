@@ -234,12 +234,12 @@ An analyst commonly seeks to determin whether two samples are from populations w
   - Population parameters are almost always unknown ∴ sampling is performed to obtain a parameter’s estimator.
 - **Statistic**: Characteristic of a sample
 - **Common Statistics and Parameters
-  -**Statistic**
+  - **Statistic**
     - ̅x: sample mean
     - s: sample standard deviation
     - s^2: sample variance
     - ̂p: sample proportion
-  -**Parameter**
+  - **Parameter**
     - µ: population mean
     - σ: population standard deviation
     - σ^2: population variance
@@ -267,4 +267,4 @@ As the sample size drawn from the population with distribution X becomes larger,
 1. **Randomness**: samples must be randomly selected.
 2. **Independence**: sample values must be independent of each other
 3. **Size**: sample size must be large enough (<30)
-4. **10% condition** sample size must be at most 10% of the population size.
+4. **10% condition**: sample size must be at most 10% of the population size.
