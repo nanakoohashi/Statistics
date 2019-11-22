@@ -251,3 +251,13 @@ An analyst commonly seeks to determin whether two samples are from populations w
 -	**Analysis of variance (ANOVA)** - determines whether the means of two or more populations are equal.
 ### Normal Distribution
 A bell-shaped probability distribution with two parameters: the mean (µ) and standard deviation (σ).
+p(x)=1/(σ√2 π) ⅇ^((-(x-μ)^2)/(2σ^2 ))
+
+### Finding probabilities associated with a normal distribution 
+Most situations involve random variables from distributions that are continuous.
+  - **Continuous random variable**: a random variable that can take on any value within a range of infinitely many or uncountable values. 
+    - Ex: Random variables that represent measurements with continuous values such as body mass index and radius of an O-ring joint are continuous.
+The following notation is used when working with normally distributed random variables and other random variables following continuous distributions:
+•	P(X<a) is the probability that the random variable X takes on a value of at most a.
+•	P(X>a) is the probability that the random variable X takes on a value of at least a.
+•	P(a<X<b) is the probability that the random variable X takes on a value between a and b.
