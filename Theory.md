@@ -258,6 +258,13 @@ Most situations involve random variables from distributions that are continuous.
   - **Continuous random variable**: a random variable that can take on any value within a range of infinitely many or uncountable values. 
     - Ex: Random variables that represent measurements with continuous values such as body mass index and radius of an O-ring joint are continuous.
 The following notation is used when working with normally distributed random variables and other random variables following continuous distributions:
-•	P(X<a) is the probability that the random variable X takes on a value of at most a.
-•	P(X>a) is the probability that the random variable X takes on a value of at least a.
-•	P(a<X<b) is the probability that the random variable X takes on a value between a and b.
+- P(X<a) is the probability that the random variable X takes on a value of at most a.
+- P(X>a) is the probability that the random variable X takes on a value of at least a.
+- P(a<X<b) is the probability that the random variable X takes on a value between a and b.
+### Central limit theorem for means
+As the sample size drawn from the population with distribution X becomes larger, the distribution of the sample means X̄ approaches that of a normal distribution, N~(μx,σx/√n), where σx/√n is the standard deviation.
+#### Assumptions
+1. **Randomness**: samples must be randomly selected.
+2. **Independence**: sample values must be independent of each other
+3. **Size**: sample size must be large enough (<30)
+4. **10% condition** sample size must be at most 10% of the population size.
