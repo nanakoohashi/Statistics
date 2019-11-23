@@ -272,8 +272,19 @@ As the sample size drawn from the population with distribution X becomes larger,
 ## Student's t-test
 ### Student's t-distribution (≡ t-distribution)
 Obtaining a large enough sample may not be possible or the population standard deviation is unknown. In both cases, the sample standard deviation/sample size^2 can be used in place of the population standard deviation.
-- **Student's t-distribution (≡ t-distribution)** used in place of normal distirbutions where the sample size (n) is small or the population standard deviation (σ) is unknown.
+- **Student's t-distribution (≡ t-distribution)** used in place of normal distirbutions where the **sample size (n) is small** or the **population standard deviation (σ) is unknown**.
   - **Parameter**: Degrees of Freedom (df) = n-1
     - As df increases, the t-distribution approches the normal distribution with mean = 0 and standard deviation = 1
 - **t-statistic**: obtained from a sample assumed to have a t-distribution.
 The formula for t-statistic is t=  ( ̅x - μ )/(s/√n)   where s is the sample standard deviation, ̅x is the sample mean, µ is the population mean, and n is the sample size. 
+### Student's t-test (≡ t-test)
+- Method of hypothesis testing for the **mean of a sample** taken from a **normally distributed population** when the **population standard deviation is unknown**.
+- **Purpose**: To determine if the difference between the sample mean and the hypothesized population mean is statistically significant.
+  - **Null hypothesis**: hypothesis of no difference
+  - **Alternative hypothesis**: the claim contrary to the hypothesis
+    - The alternative hypothesis ultimately depends on what the study claims. If the study claims that:
+      - The parameter > hypothesized value: the hypothesis test is **right-tailed** and H_a:μ>μ_0. 
+      - The parameter < hypothesized value, the hypothesis test is **left-tailed** and H_a:μ<μ_0. 
+      - The parameter has a different value, then the hypothesis test is **two-tailed** and H_a:μ≠μ_0. 
+- The **significance level** (**α**), is the probability of rejecting the null hypothesis when the null hypothesis is actually true. Thus, if the p-value is less than the significance level, sufficient evidence exists to reject the null hypothesis. Common values for α are 0.05 and 0.01.
+### Confidence interval for a t-distribution
