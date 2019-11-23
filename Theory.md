@@ -288,3 +288,9 @@ The formula for t-statistic is t=  ( ̅x - μ )/(s/√n)   where s is the sample
       - The parameter has a different value, then the hypothesis test is **two-tailed** and H_a:μ≠μ_0. 
 - The **significance level** (**α**), is the probability of rejecting the null hypothesis when the null hypothesis is actually true. Thus, if the p-value is less than the significance level, sufficient evidence exists to reject the null hypothesis. Common values for α are 0.05 and 0.01.
 ### Confidence interval for a t-distribution
+The confidence interval for a population mean was defined as (x - ̅z* σ/√n, x + ̅z^ σ/√n)
+  - In practice, however, the population standard deviation is rarely known. Thus, confidence intervals using the t-distribution are more useful because the sample standard deviation is used instead.
+The t-confidence interval is given by  ( ̅x - t* s/√n, ̅x + t* s/√n)
+  - where t* is the critical value that depends on the type of test, degrees of freedom, and significance level. The values for t* for common significance levels given selected degrees of freedom is shown in the table below.
+## Comparing 2 samples: 2-sample t-test
+### Two-sample t-test
