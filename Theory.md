@@ -263,8 +263,17 @@ The following notation is used when working with normally distributed random var
 - P(a<X<b) is the probability that the random variable X takes on a value between a and b.
 ### Central limit theorem for means
 As the sample size drawn from the population with distribution X becomes larger, the distribution of the sample means X̄ approaches that of a normal distribution, N~(μx,σx/√n), where σx/√n is the standard deviation.
+- Calculate probabilities associated with non-normal distributions assuming the sample sizes are sufficiently large.
 #### Assumptions
 1. **Randomness**: samples must be randomly selected.
 2. **Independence**: sample values must be independent of each other
 3. **Size**: sample size must be large enough (<30)
 4. **10% condition**: sample size must be at most 10% of the population size.
+## Student's t-test
+### Student's t-distribution (≡ t-distribution)
+Obtaining a large enough sample may not be possible or the population standard deviation is unknown. In both cases, the sample standard deviation/sample size^2 can be used in place of the population standard deviation.
+- **Student's t-distribution (≡ t-distribution)** used in place of normal distirbutions where the sample size (n) is small or the population standard deviation (σ) is unknown.
+  - **Parameter**: Degrees of Freedom (df) = n-1
+    - As df increases, the t-distribution approches the normal distribution with mean = 0 and standard deviation = 1
+- **t-statistic**: obtained from a sample assumed to have a t-distribution.
+The formula for t-statistic is t=  ( ̅x - μ )/(s/√n)   where s is the sample standard deviation, ̅x is the sample mean, µ is the population mean, and n is the sample size. 
