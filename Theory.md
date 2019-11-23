@@ -294,3 +294,12 @@ The t-confidence interval is given by  ( ̅x - t* s/√n, ̅x + t* s/√n)
   - where t* is the critical value that depends on the type of test, degrees of freedom, and significance level. The values for t* for common significance levels given selected degrees of freedom is shown in the table below.
 ## Comparing 2 samples: 2-sample t-test
 ### Two-sample t-test
+The t-test discussed analyzes the **difference between the sample mean and the hypothesized value of the population mean**. A similar method exists to compare the means of two different populations. The two-sample t-test is used to determine if a statistically **significant difference exists between two population means**. Two types of two-sample t-test exist: paired and unpaired.
+#### Paired t-test (≡ dependent t-test)
+- A sample taken from **one population is exposed to two different treatments**. 
+- The main idea is that measurements are recorded from the **same group**. 
+  - *Ex: A group of professional cycling athletes is selected for a study on the effects of caffeine dosage on exhaustion times. The populations are the cyclists for each of two dosages. The samples are the measured exhaustion times for each dosage, which implies dependence because the measurements were taken from the same group.*
+#### Unpaired t-test (≡ independent t-test)
+- A sample taken from **one population is not related to a different sample taken from another population**. 
+- In contrast to the paired t-test, measurements from an unpaired t-test are recorded from **different groups** when exposed to the same treatment. 
+  - *Ex: The effect of caffeine intake on exhaustion times is studied by measuring the exhaustion times of a randomly selected group of 9 professional cyclists taking caffeine pills and another group of 9 cyclists not taking caffeine pills. The two populations are all cyclists taking caffeine pills and those who are not taking the pills. The samples are the measured exhaustion times from the two groups, each with 9 cyclists, which implies independence because the times are for two different groups of cyclists.*
