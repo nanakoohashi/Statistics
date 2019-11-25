@@ -346,3 +346,7 @@ Are the predicted or fitted response values based on the simple linear regressio
 Is the predicted value of Y for the ith smaple value of X based on the linear regression line.
 #### Linear regression residual
 Is the estimated regression error based on the sample linear regression line.
+### T-Test for linear regression
+Check if β_1 ≠ 0 (alternative hypothesis).
+## Parametric vs. nonparametric statistics
+### What is the difference between parametric and nonparametric methods?
