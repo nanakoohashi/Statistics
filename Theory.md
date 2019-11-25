@@ -313,4 +313,14 @@ where ̅x_1,  s_1, and n_1 are the mean, standard deviation, and sample size of 
 ## Comparing 3+ samples: ANOVA
 ### Comparing 3 or more populations
 - *Ex: A researcher wants to classify iris species based on sepal length by using a method called k-means clustering. As a first step, the researcher checks whether the mean sepal length differs among three species of iris: setosa, virginica, and versicolor. A possible method to compare the means is to perform three unpaired t-tests: one between setosa and versicolor, another between setosa and virginica, and finally between versicolor and virginica.*
-Analysis of variance (ANOVA) controls for the errors associated with comparing multiple population means. Analysis of variance (ANOVA) determines whether a statistically significant difference exists among the means of three or more populations. Equivalently, ANOVA tests for an association between a categorical predictor variable and a response variable. Ex: In the iris study, the predictor variable is the type of species and the response variable is sepal length. Data scientists and statisticians often refer to a categorical predictor variable as a factor and a possible value of a factor as a level. A factor can be a continuous variable partitioned into intervals commonly referred to as bins. 
+Analysis of variance (ANOVA) controls for the errors associated with comparing multiple population means. Analysis of variance (ANOVA) determines whether a statistically significant difference exists among the means of three or more populations. Equivalently, ANOVA tests for an association between a categorical predictor variable and a response variable. 
+- *Ex: In the iris study, the predictor variable is the type of species and the response variable is sepal length. Data scientists and statisticians often refer to a categorical predictor variable as a factor and a possible value of a factor as a level. A factor can be a continuous variable partitioned into intervals commonly referred to as bins. *
+#### The F-statistic
+The ratio of between-group variance to within group variance.  
+A number of quantities are involved when calculating the F-statistic:
+- The **sum of squares between groups (SSB)**: measures the between-group variablility.
+- The **mean of squares between groups (MSB)**: measure the between-group variance.
+- The **sum of squares within groups (SSW)**: measures the within-group variability.
+- The **mean squares within groups (MSW)**: measures the within-group variance.
+Since MSB and MSW represent the between-group variance and within-group variance respectively, F = MSB/MSW
+#### One-way ANOVA
