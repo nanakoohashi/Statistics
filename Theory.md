@@ -338,4 +338,11 @@ Is a linear function used to predict the value of one variable using the values 
   - The response variable Y goes on the vertical axis
   - Assuming the data represents a population, the population linear regression function is given by E(Y)=β_0+β_1 X, where E(Y) is the expected value of Y, and β_0  and β_1 are unknown population regression parameters. 
     - **Absoulte error ∈** = The difference between the true value Y and E(Y).
-#### The method of least squares
+#### Method of least squares
+Derives a linear regression model by minimizing the sum of squared errors.
+#### Sample linear regression function
+Are the predicted or fitted response values based on the simple linear regression model.
+#### Linear regression fitted value
+Is the predicted value of Y for the ith smaple value of X based on the linear regression line.
+#### Linear regression residual
+Is the estimated regression error based on the sample linear regression line.
