@@ -324,3 +324,17 @@ A number of quantities are involved when calculating the F-statistic:
 - The **mean squares within groups (MSW)**: measures the within-group variance.
 Since MSB and MSW represent the between-group variance and within-group variance respectively, F = MSB/MSW
 #### One-way ANOVA
+Compares the means of three or more groups of one predictor variable.
+- Null hypothesis = all of the group means are equal.
+## Linear Regression
+### Linear regression model
+Is a linear function used to predict the value of one variable using the values of one or more variables.
+- In a linear regression involving two variables:
+  - **response variable** = the variable being modeled or predicted
+  - **predictor variable** = the variable used to predict the response.
+    - *Ex. A researcher wishes to construct a linear model that a student's grades given the number of hours spent studying. THe predictor variable is the number of hours spent studying and the response variable is student grade*.
+- A scattor plot displays a set of predictor and response varaible pairs as data points.
+  - The predictor variable X goes on the horizontal axis
+  - The response variable Y goes on the vertical axis
+  - Assuming the data represents a population, the population linear regression function is given by E(Y)=β_0+β_1 X, where E(Y) is the expected value of Y, and β_0  and β_1 are unknown population regression parameters. 
+    - **Absoulte error ∈** = The difference between the true value Y and E(Y).
