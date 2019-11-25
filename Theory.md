@@ -338,3 +338,4 @@ Is a linear function used to predict the value of one variable using the values 
   - The response variable Y goes on the vertical axis
   - Assuming the data represents a population, the population linear regression function is given by E(Y)=β_0+β_1 X, where E(Y) is the expected value of Y, and β_0  and β_1 are unknown population regression parameters. 
     - **Absoulte error ∈** = The difference between the true value Y and E(Y).
+#### The method of least squares
