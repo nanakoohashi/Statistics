@@ -233,7 +233,7 @@ An analyst commonly seeks to determin whether two samples are from populations w
 - **Parameter**: Characteristics of a population
   - Population parameters are almost always unknown ∴ sampling is performed to obtain a parameter’s estimator.
 - **Statistic**: Characteristic of a sample
-- **Common Statistics and Parameters
+- **Common Statistics and Parameters**
   - **Statistic**
     - ̅x: sample mean
     - s: sample standard deviation
@@ -351,5 +351,6 @@ Check if β_1 ≠ 0 (alternative hypothesis).
 ## Parametric vs. nonparametric statistics
 ### What is the difference between parametric and nonparametric methods?
 - **Student's t-test**: compares the means of two populations.
-  - *Ex. The mean heights of men and women using the sample data. 
+  - *Ex. The mean heights of men and women using the sample data.*
   - **Assumptions**: Normal distribution for each population.
+**Parametric Method**: Makes inferences based on assuming some statistical distribution of a population or for a statistic. (Normal distribution).
