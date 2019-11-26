@@ -350,3 +350,6 @@ Is the estimated regression error based on the sample linear regression line.
 Check if β_1 ≠ 0 (alternative hypothesis).
 ## Parametric vs. nonparametric statistics
 ### What is the difference between parametric and nonparametric methods?
+- **Student's t-test**: compares the means of two populations.
+  - *Ex. The mean heights of men and women using the sample data. 
+  - **Assumptions**: Normal distribution for each population.
