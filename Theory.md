@@ -354,3 +354,4 @@ Check if β_1 ≠ 0 (alternative hypothesis).
   - *Ex. The mean heights of men and women using the sample data.*
   - **Assumptions**: Normal distribution for each population.
 **Parametric Method**: Makes inferences based on assuming some statistical distribution of a population or for a statistic. (Normal distribution).
+**Non-Parametric Method**: Makes inferences based on data requiring fewer assumptions about the statistical distribution of the population (skewed).
