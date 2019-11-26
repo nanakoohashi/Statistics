@@ -360,3 +360,5 @@ Check if β_1 ≠ 0 (alternative hypothesis).
 - **Disadvantages**: Require large samples. Samples must approximate a distribution.
 ### Nonparametric 
   **Use**: When data is small
+- **Advantages**: Do not require large samples, or for the sample to be drawn from a specific distribution.
+- **Disadvantages**: Less powerful when the assumptions for a parametric test are met. Also, more difficult to compute.
