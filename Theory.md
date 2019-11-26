@@ -352,6 +352,11 @@ Check if β_1 ≠ 0 (alternative hypothesis).
 ### What is the difference between parametric and nonparametric methods?
 - **Student's t-test**: compares the means of two populations.
   - *Ex. The mean heights of men and women using the sample data.*
-  - **Assumptions**: Normal distribution for each population.
-**Parametric Method**: Makes inferences based on assuming some statistical distribution of a population or for a statistic. (Normal distribution).
-**Non-Parametric Method**: Makes inferences based on data requiring fewer assumptions about the statistical distribution of the population (skewed).
+  - **Assumptions**: Normal distribution for each population (Parametric).
+- **Parametric Method**: Makes inferences based on assuming some statistical distribution of a population or for a statistic. (Normal distribution).
+- **Non-Parametric Method**: Makes inferences based on data requiring fewer assumptions about the statistical distribution of the population (skewed).
+### Parametric
+- **Advantages**: More powerful if the assumptions of the parametric test are true.
+- **Disadvantages**: Require large samples. Samples must approximate a distribution.
+### Nonparametric 
+  **Use**: When data is small
