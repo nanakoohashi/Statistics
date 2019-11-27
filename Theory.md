@@ -373,4 +373,8 @@ A normal distribution has a skewness of zero. If the right-tailed distribution h
 In the case of a null hypothesis, if the p-value is less than a significance level (such as 0.05), the difference is deemed significant. 
 ### Combinations for randomization tests
 The number of ways to choose k items from a group of N data points is "N choose k", calculated as N!/k!(N−k)!
-
+### Resampling: Bootstrapping
+Randomly selects a set of data points, allowing the same data point to be selected more than once, to create an approximate sampling distribution.
+- Data from different groups are not mixed. 
+- **With replacement**: allowing selection more than once.
+- **Assumptions**: Data is representative of the sample distribution.
