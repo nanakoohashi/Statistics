@@ -367,3 +367,5 @@ A normal distribution has a skewness of zero. If the right-tailed distribution h
 #### Using nonparametric analysis when sample sizes are small
 ## Resampling: Randomization and bootstrapping
 **Resampling**: nonparametric technique for determining statistical significance by comparing an outcome with a set of outcomes obtained by randomly assigning the data points among groups.
+**Randomization test (≡ permutation test)**: A particular resampling technique that permutes the data points to obtain the comparison set of random outcomes, selecting each data point only once. 
+- A randomization test is classified as random resampling without replacement, because the data point can no longer be drawn from the population.
