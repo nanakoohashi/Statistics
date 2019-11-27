@@ -365,3 +365,5 @@ Check if β_1 ≠ 0 (alternative hypothesis).
 #### Using nonparametric analysis when the data is skewed
 A normal distribution has a skewness of zero. If the right-tailed distribution has a skewness of 0.98 and a standard error of skewness of 0.39. Because the ratio 0.98 / 0.39 = 2.51 > 1.96, the right-tailed distribution is too skewed to be analyzed with parametric methods. 
 #### Using nonparametric analysis when sample sizes are small
+## Resampling: Randomization and bootstrapping
+**Resampling**: nonparametric technique for determining statistical significance by comparing an outcome with a set of outcomes obtained by randomly assigning the data points among groups.
