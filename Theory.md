@@ -378,3 +378,14 @@ Randomly selects a set of data points, allowing the same data point to be select
 - Data from different groups are not mixed. 
 - **With replacement**: allowing selection more than once.
 - **Assumptions**: Data is representative of the sample distribution.
+## Wilcoxon rank-sum test
+### Ranking
+Orders the data such that for any two data points, one is greater than, less than, or equal to the other.
+- *Ex: Given 3 data points 80, 75, and 99, a possible ranking is 1: 75, 2: 80, 3: 99. Ranking data can provide new insights into a sample population. Ranking data from two different randomly selected populations is the basis for some nonparametric statistical tests.*
+Statistical tests based on rank remove the necessity of assumptions of a normal distribution from the analysis of data. These methods: 
+- Are less powerful than the other nonparametric methods. 
+- Are useful in cases where assumptions about the distribution are clearly not possible. 
+  - Distribution not normal (e.g. skewed or large outliers) 
+  - Already ranked 
+- Remove information, such as the exact values of the data points. 
+- Simplify the remaining analysis. 
