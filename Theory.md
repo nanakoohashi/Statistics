@@ -364,3 +364,4 @@ Check if β_1 ≠ 0 (alternative hypothesis).
 - **Disadvantages**: Less powerful when the assumptions for a parametric test are met. Also, more difficult to compute.
 #### Using nonparametric analysis when the data is skewed
 A normal distribution has a skewness of zero. If the right-tailed distribution has a skewness of 0.98 and a standard error of skewness of 0.39. Because the ratio 0.98 / 0.39 = 2.51 > 1.96, the right-tailed distribution is too skewed to be analyzed with parametric methods. 
+#### Using nonparametric analysis when sample sizes are small
