@@ -314,7 +314,7 @@ where ̅x_1,  s_1, and n_1 are the mean, standard deviation, and sample size of 
 ### Comparing 3 or more populations
 - *Ex: A researcher wants to classify iris species based on sepal length by using a method called k-means clustering. As a first step, the researcher checks whether the mean sepal length differs among three species of iris: setosa, virginica, and versicolor. A possible method to compare the means is to perform three unpaired t-tests: one between setosa and versicolor, another between setosa and virginica, and finally between versicolor and virginica.*
 Analysis of variance (ANOVA) controls for the errors associated with comparing multiple population means. Analysis of variance (ANOVA) determines whether a statistically significant difference exists among the means of three or more populations. Equivalently, ANOVA tests for an association between a categorical predictor variable and a response variable. 
-- *Ex: In the iris study, the predictor variable is the type of species and the response variable is sepal length. Data scientists and statisticians often refer to a categorical predictor variable as a factor and a possible value of a factor as a level. A factor can be a continuous variable partitioned into intervals commonly referred to as bins. *
+- *Ex: In the iris study, the predictor variable is the type of species and the response variable is sepal length. Data scientists and statisticians often refer to a categorical predictor variable as a factor and a possible value of a factor as a level. A factor can be a continuous variable partitioned into intervals commonly referred to as bins.*
 #### The F-statistic
 The ratio of between-group variance to within group variance.  
 A number of quantities are involved when calculating the F-statistic:
@@ -382,10 +382,19 @@ Randomly selects a set of data points, allowing the same data point to be select
 ### Ranking
 Orders the data such that for any two data points, one is greater than, less than, or equal to the other.
 - *Ex: Given 3 data points 80, 75, and 99, a possible ranking is 1: 75, 2: 80, 3: 99. Ranking data can provide new insights into a sample population. Ranking data from two different randomly selected populations is the basis for some nonparametric statistical tests.*
-Statistical tests based on rank remove the necessity of assumptions of a normal distribution from the analysis of data. These methods: 
-- Are less powerful than the other nonparametric methods. 
-- Are useful in cases where assumptions about the distribution are clearly not possible. 
-  - Distribution not normal (e.g. skewed or large outliers) 
-  - Already ranked 
-- Remove information, such as the exact values of the data points. 
-- Simplify the remaining analysis. 
+- Statistical tests based on rank remove the necessity of assumptions of a normal distribution from the analysis of data. These methods: 
+  - Are less powerful than the other nonparametric methods. 
+  - Are useful in cases where assumptions about the distribution are clearly not possible. 
+    - Distribution not normal (e.g. skewed or large outliers) 
+    - Already ranked 
+  - Remove information, such as the exact values of the data points. 
+  - Simplify the remaining analysis. 
+### Wilcoxon rank-sum test
+- Can be performed using ranked data.
+- Ignores the values of the original data and compares the sum of the two groups' ranks. 
+- The test statistic for the Wilcoxon rank-sum test, W, is the minimum of the sum of the ranks for each group. 
+  - *Ex: The sum of the ranks for the placebo group is 18.5, while the sum of the ranks for the painkiller group is 36.5. The test statistic is given by the smaller sum, so W = 18.5.*
+- **Assumptions**:
+  1. The two groups come from similar distributions.
+  2. The two sets of data are independent.
+### Kruskal-Wallis Test
