@@ -372,3 +372,5 @@ A normal distribution has a skewness of zero. If the right-tailed distribution h
 ### Significance for randomization tests
 In the case of a null hypothesis, if the p-value is less than a significance level (such as 0.05), the difference is deemed significant. 
 ### Combinations for randomization tests
+The number of ways to choose k items from a group of N data points is "N choose k", calculated as N!/k!(N−k)!
+
