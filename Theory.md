@@ -408,3 +408,7 @@ Orders the data such that for any two data points, one is greater than, less tha
 In cases of multiple tests, the probability that at least one incorrect result is reported can be expressed based on the confidence level of the individual results. The family-wise error rate is the overall confidence level of multiple statistical tests due to type I errors. The significance of the k independent statistical tests is given by ̅α = 1 - (1-α_comparison )^k
 - If the tests are not independent, the significance is given by:  
  ̅α ≤ kα_comparison
+#### Techniques
+The Bonferroni method sets a minimum critical value to reject each statistical test to assure a minimum significance level for a group of tests. *Ex: If the desired significance level is 0.05 for 5 independent tests, an individual test is rejected if the p-value for that test is less than 0.05/5 = 0.*
+- Helps restrict type I errors
+- More type II errors.
