@@ -398,3 +398,6 @@ Orders the data such that for any two data points, one is greater than, less tha
   1. The two groups come from similar distributions.
   2. The two sets of data are independent.
 ### Kruskal-Wallis Test
+#### Kruskal-Wallis Test
+- Similar to Wilcoxon rank-sum test.
+- Nonparametric equivalent to a one-way analysis of variance, and is an extention of the Wilcoxon rank-sum test to three or more groups of data.
