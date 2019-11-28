@@ -412,3 +412,10 @@ In cases of multiple tests, the probability that at least one incorrect result i
 The Bonferroni method sets a minimum critical value to reject each statistical test to assure a minimum significance level for a group of tests. *Ex: If the desired significance level is 0.05 for 5 independent tests, an individual test is rejected if the p-value for that test is less than 0.05/5 = 0.*
 - Helps restrict type I errors
 - More type II errors.
+# Categorical Analysis
+## Comparing samples having categorical data
+- **Categorical data (≡ qualitative data)**: data that can only take on the value (usually a label) of one of several categories.
+  - *Ex. A person's gender, seasons, and U.S. comparies are categorical varaibles. 
+  - Two types of categorical data:
+    - **Nominal**: No ordering, existing in name only, like apples, oranges, and grapes.
+    - **Ordinal**: Have ordering, like disagree, neutral, and agree.
