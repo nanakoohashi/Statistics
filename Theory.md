@@ -401,3 +401,10 @@ Orders the data such that for any two data points, one is greater than, less tha
 #### Kruskal-Wallis Test
 - Similar to Wilcoxon rank-sum test.
 - Nonparametric equivalent to a one-way analysis of variance, and is an extention of the Wilcoxon rank-sum test to three or more groups of data.
+- H0: All groups of data are drawn from the same distribution.
+- H1: At least one group is drawn from a different distribution.
+### Multiple Tests
+#### Incorrect Rejection
+In cases of multiple tests, the probability that at least one incorrect result is reported can be expressed based on the confidence level of the individual results. The family-wise error rate is the overall confidence level of multiple statistical tests due to type I errors. The significance of the k independent statistical tests is given by ̅α = 1 - (1-α_comparison )^k
+- If the tests are not independent, the significance is given by:  
+ ̅α ≤ kα_comparison
