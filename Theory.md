@@ -425,7 +425,7 @@ The Bonferroni method sets a minimum critical value to reject each statistical t
 - **Stacked bar chart**: a bar chart that depicts two or more groups on a single bar chart, with the proportion in each group having a different color in the bar.
 ## 2 samples, 2 categories: Fisher's exact test
 ### More on contingency tests
-- **Fischer's exact test: a method of calculating the exact p-value for contingency tables. 
+- **Fischer's exact test**: a method of calculating the exact p-value for contingency tables. 
   - **Assumptions**:
     - Row and column totals are fixed
     - If at least three of the totals are known, the 2x2 contingency table can be completed knowing only one of the four observations.
