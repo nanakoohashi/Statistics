@@ -437,4 +437,60 @@ The Bonferroni method sets a minimum critical value to reject each statistical t
 - An alternative to the Fischer's excact test: Fischer's exact tests provides exact p-values b ut requires a great deal of computation
 - **Use**: Calculates how unusual the oberved contingency table is under the null hypothesis. Compares the observed values in each cell of a contingecy table to the expected values.
 - **Calculation**: row total * column total / overall total
-### Constructing the test statistic
+## 3+ samples and/or 3+ categories: Chi-square test
+### Why use chi-square test for 3+ populations, and/or 3+ categories?
+- While Fisher's exact test can be used for variables with more than two categories, calculating all possible contingency tables quickly becomes infeasible.
+- **Assumptions**: Expected cell counts are > 5 (if <5 use Fisher's exact test).
+#### Chi-square test of independence
+- Determines if there is a significant relationship between two nominal (categorical) categories.
+  - H0: The two variables are independent.
+  - Ha: The two variables are not independent.
+#### Chi-square test of homogeneity
+- Determines whether different samples come from the same population.
+  - i.e. Determines if the distribution of one variable is the same across all cetgories of the other variables.
+## 2 samples, 2 categories: relative risk and odds ratio
+- Measures of the practical or clinical effect based on sample data.
+- *e.g. Ex: A study concludes that a statistically significant difference exists in deaths from the SARS virus for a group receiving the anti-viral drug Ribavirin compared to those not receiving the drug. However, drugs have side effects and may be expensive. Thus, if the risk of death from SARS is not sufficiently reduced using Ribavirin, a patient might choose not to use the drug despite the statistical result.*
+### Exposure vs. Outcome
+- **Exposure variable**: predictor variable
+  - *e.g. In a SARS study, researchers were intereted in whether the likelihood of death is different for those taking Ribavirin. The variable identifying whether the person takes the drug or not is the exposure variable*.
+- **Outcome variable**: response variable or the variable the study attemps to predict
+- E1 and E2 (refer to risk measures table): the categories for the exposure variable; risk for the E1 group is compared to the risk for the E2 group.
+  - E1 = exposed group.
+  - *Ex. If gender is the exposure variable and E1 is defined as males, the risk of the outcome in males is compared to the risk in females.
+- D1 and D2 are categories for the outcome variable.
+### Risk Ratio (≡ relative risk)
+- **Risk**: probability of the outcome occurring.
+  - RE1 = a/a+b
+  - RE2 = c/c+d
+- **Risk ratio (or relative risk):** ratio of the risks of an outfome for two groups. The estimated risk ratio (RR) of outcome D1 occurring is:
+  - RR = RE1/RE2 = (a/a=b)/(c/c+d)
+  - An RR of 1 = estimated risk of the outcome is the same in the two groups.
+    - RR of 2 = estimated risk in the exposed group is twice that of the unexposed
+    - RR of 1/2 = estimated risk of the exposed group is half that of the unexposed.
+### Odds Ratio (OR)
+- **Odds**: the ratio of the probability that the event occurs to the probability that the event does not occur.
+  - Odds = p/(1-p), where *p* is the probability of the even occuring. 
+    - *Ex. The probability that a cornea transplant is successful (no rejection) is 0.8. The odds of success are **odds** = 0.8/(1-0.8) = 0.8/0.2 = 4/1 = 4.
+    - The probability of the otucome, D1, for the first exposure group E1, is the risk previously estimated as RE1= a/a=b. 
+    - The probaility D1 does not occure in the E1 group is 1-RE1 or b/a+b. The odds are shown below, which is similarly computed for the second exposure group E2.
+      - OE1 = (a/a+b)/(b/a+b) = a/b
+      - OE2 = (c/c+d)/(d/c+d) = c/d
+    - **Odds ratio (OR): ratio of the odds of an outcome for two groups. The estimated odds ratio outcome D1 occurring is:
+      - OR = OE1/OE2 = (a/b)/(c/d) = a.d/b.c 
+      - OR of 1 = estimated odds of the outcome are the same in both groups.
+      - OR of 2 = estimated odds in the exposed group are twice that of the unexposed.
+      - OR of 1/2 = estimated odds in the exposed group are half that of the unexposed.
+###  Using risk and odds ratios
+Risk ratio is generally perferred over the odds ratio, because people usually understand risks or probabilities better tahn odds.
+- When to choose odds ratio:
+  - **Case-control studies**: A case-control study compares subjects who have an outcome of interest, referred to as cases, with a pre-selected number of subjects who do not have the outcome, referred to as controls.
+    -	The risk ratio is not appropriate in case-control studies because the prevalence of the disease is not the same as the prevalence of the disease among people in the study. Thus, the risk estimates are not correct.
+    - *Ex: 50 patients with pancreatic cancer are identified as cases at a cancer center. 50 patients without pancreatic cancer are randomly selected from other hospital patients to act as controls. Pancreatic cancer cases are 50% of the study subjects, which is much higher than the true risk of pancreatic cancer.*
+  - **More complicated data analysis**: Estimates of the risk ratio are often not available or appropriate in studies with more than 2 categories for the predictor, or more than one predictor variable. Logistic regression, covered in another chapter, is useful in such settings and produces estimates of the odds ratio.
+#### Useful facts about the risk ratio and odds ratio
+- Odds ratio makes the difference in the groups appear greater than risk ratio.
+- When the rate of occurrence of the outcome is high in either group, the odds ratio is much further from 1 than the risk ratio.
+- Odds ratio is a reasonable approximatio of the risk ratio when the prevalence of the outcome is low.
+  
+
