@@ -429,3 +429,12 @@ The Bonferroni method sets a minimum critical value to reject each statistical t
   - **Assumptions**:
     - Row and column totals are fixed
     - If at least three of the totals are known, the 2x2 contingency table can be completed knowing only one of the four observations.
+    - Calculated using hypergeometric distribution.
+## 2 samples, 2 categories, large sample: Chi-squared test
+### Chi-square tests and expected cell counts
+- Approximation that is used when a sample size is large.
+- For larger contingency tables.
+- An alternative to the Fischer's excact test: Fischer's exact tests provides exact p-values b ut requires a great deal of computation
+- **Use**: Calculates how unusual the oberved contingency table is under the null hypothesis. Compares the observed values in each cell of a contingecy table to the expected values.
+- **Calculation**: row total * column total / overall total
+### Constructing the test statistic
