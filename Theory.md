@@ -560,3 +560,57 @@ The loading plot is created from two principal components. The weight of an inpu
   - *Ex: The weight of student GPA is 0.5083537 for the first principal component and 0.4683627 for the second principal component. The loading plot draws a line from the origin to each coordinate representing an input variable. The figure below provides a way to visualize the importance of each variable to a principal component and can provide some insight into the meaning of each principal component.*
 ### Factor loadings
 The correlation between the original data and the new principal component. The factor loadings can be obtained by calculating the correlation coefficients between the principal component and each of the input variables.
+# Multiple Regression
+## The multiple linear regression model
+### Elements of the multiple regression model
+A multiple linear regression is a way to model the linear relationship between one quantitative response variable and one or more predictor variables.
+- **Response variable**: variable being modeled or predicted (Y)
+- **Predictor variable**: variables used to predict the response (X1, X2, X3... Xn)
+- **Regression error term (ϵ)**: actual value of *Y* - expected value of *Y*.
+  - ϵ is positive: actual Y > expected Y
+  - ϵ is negative: actual Y < expected Y
+  - ϵ is zero: actual Y = expected Y
+## Regression diagnostics
+A multiple linear regression model should generally only be used if a reasonable chance exists that the assumptions hold in the population:
+  - Linear relationship between independent and dependent variables.
+  - Errors between observed and predictced values should be normally distributed (using the Kolmogorov Smirnov test).
+  - No multicollinearity in the data (independent variables should not be highly correlated to each other).
+    - Multicollinarity may be checked using the following methods:
+      1. Correlation matrix: magnitude of the correlation coefficients should be < 0.80
+      2. Variance Inflation Factor (VIF): should be < 10
+  - Homoscedasticity (no clear pattern in the distribution; should not be cone shaped = heteroscedastic)
+### Assessing the regression assumption with residual plots
+1. The **"mean of zero" assumption**: Mean of residuals should ≈ 0 for all predictor variables.
+2. The **"constant variance" assumption (homoscedasticity)**: The variance of residuals for each fixed value of the horizontal quantity should remain ≈ constant all the way across the plot.
+3. The **"normality" assumption**: A normal probability plot of the residuals has the ordered residuals plotted on the vertical axis and theoretical normal quantiles plotted on the horizontal axis. If the plotted points lie reasonably close to the diagonal line on the plot then one can conclude that the normality assumption holds.
+4. **Assessing the "independence" assumption**: The most common form of dependence that can affect regression models is time dependence. Such time dependence can be assessed if the data was collected in time order and that information is available. Otherwise, assessing the independence assumption is difficult. However, if a variable that tracks time is available, a scatterplot with the residuals on the vertical axis and time order on the horizontal axis enables assessment of the independence assumption. If one scans the plot from left to right and the residuals tend to track one another more than would be expected by chance, then time dependence in the errors may exist and the independence assumption may not hold. If time dependence exists in the errors, the errors are said to be autocorrelated. If the residuals seem random, then one can conclude that the independence assumption holds.
+5. Sample size > 30
+### Influential observations
+- **Outliers**: Observation's Y value is much larger than predicated by the model, or much smaller than predicted by the model.
+- **High leverage**: Extreme combination of values that might be particularly high or low values for all the predictors or a combination of predictor values that is relatively unusual.
+- **Multicollinearity**
+### Residual standard error, R-squared and adjusted R-squared
+#### Residual standard error
+- Square root of the residual mean square s = √MSE
+- Estimates the standard deviation of the residuals.
+- Smaller residual errors are closer to the actual future value of Y.
+#### R-squared
+- Proportion of the total variation in the response variable, Y that is accounted for by the linear regression model.
+#### Adjusted R-squared
+- Allows alternatie models for the same response variable to be compared.
+- Tends to only increase when a worthwhile predictor term is added to the model.
+- A model with a higher value of adjusted R-squared would be preferred to a model with a lower value.
+Proportion 
+## Categorical predictors
+### Categorical predictor variables
+A categorical predictor variable has qualitative values representing one of a finite number of categories. 
+- *Ex: A variable X1 representing species, whose possible values are human or dolphin.*
+### Log-transformed response variable
+A **logarithmic response variable transformation** is used when higher values tend to be more spread out than lower values.
+### Model with an interaction term
+An **interaction term** is two predictor variables multiplied together and used as an additional predictor term in a multiple linear regression model.
+# Logistic Regression
+## Introduction to the logistic regression model
+### Binary Responses
+A binary response variable is a response variable that has only two possible outcomes. Ex: Researchers wish to develop a model to predict whether a patient rejects a kidney transplant. The outcome is binary, because the patient either rejects the kidney or not. A binary response variable typically uses 0 and 1 to represent the two possible outcomes. Ex: Y = 1 if the patient rejects the kidney and 0 if the patient does not reject the kidney.
+- *Ex.As in linear regression, interest is in modeling or predicting the binary response variable using one (or more) predictor variables. Ex: The binary response is whether a retired baseball player was inducted into the baseball Hall of Fame, and the predictor variables are career performance statistics such as hits, home runs, and runs scored. The binary response is a 1 if the player is in the Hall of Fame and a 0 if not. The plot below shows the Hall of Fame status for the predictor variable Hits (number of hits in the player's career).*
