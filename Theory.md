@@ -491,6 +491,6 @@ Risk ratio is generally perferred over the odds ratio, because people usually un
 #### Useful facts about the risk ratio and odds ratio
 - Odds ratio makes the difference in the groups appear greater than risk ratio.
 - When the rate of occurrence of the outcome is high in either group, the odds ratio is much further from 1 than the risk ratio.
-- Odds ratio is a reasonable approximatio of the risk ratio when the prevalence of the outcome is low.
+- Odds ratio is a reasonable approximation of the risk ratio when the prevalence of the outcome is low.
   
 
