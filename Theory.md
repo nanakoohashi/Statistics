@@ -492,5 +492,22 @@ Risk ratio is generally perferred over the odds ratio, because people usually un
 - Odds ratio makes the difference in the groups appear greater than risk ratio.
 - When the rate of occurrence of the outcome is high in either group, the odds ratio is much further from 1 than the risk ratio.
 - Odds ratio is a reasonable approximation of the risk ratio when the prevalence of the outcome is low.
-  
-
+# Principal Component Analysis
+## Introduction to PCA
+### Components
+PCA combines interdependent variables into new variables to simplify subsequent analysis.
+- *Ex: A university may wish to predict which freshman applicants will succeed academically based on predictor variables of grade point average (GPA), standardized exam scores, amount of volunteer service, number of club memberships, and rating of the applicant's essay. Intuitively, noting that GPA and exam scores are highly correlated, one might just merge those variables into a new variable, perhaps called "academic score." Principal component analysis doesn't combine variables, but does something similar via use of "components."*.
+- A table showing correlations between every variable pair can help in reducing predictor variables into components. \
+  - Correlation values are used to calculate components. 
+  - Components are not simple groupings of correlated data, but are weighted combinations of predictor variables. The weights of the predictor variables in the components is determined by all of the correlations between the predictor variables.
+### Matrix plots
+A matrix plot illustrates, via a scatter plot, every pairing of the original variables in a data set. In a matrix plot, each row has the same variable along the y-axis, and each column has the same variable along the x-axis. Thus, a matrix plot shows interdependence of every possible pair of variables. 
+### Principal component analysis
+Transforms variables into possibly fewer components to simplify subsequent analyses.
+- **Goal of PCA**: is to maximize the data variability along as few components as possible.
+### Eigenvector
+Non-zero vector v that, when multiplied with the matrix, results in a vector that is a scalar multiple of v.
+### Finding Eigenvalues
+An eigenvalue is the change in the vector length after an eigenvector is multiplied by a matrix. 
+- In PCA, the eigenvector with the largest eigenvalue becomes the first principal component, the second largest becomes the second, etc. 
+- Each component's eigenvalue is that component's variability. 
