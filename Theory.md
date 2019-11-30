@@ -600,7 +600,6 @@ A multiple linear regression model should generally only be used if a reasonable
 - Allows alternatie models for the same response variable to be compared.
 - Tends to only increase when a worthwhile predictor term is added to the model.
 - A model with a higher value of adjusted R-squared would be preferred to a model with a lower value.
-Proportion 
 ## Categorical predictors
 ### Categorical predictor variables
 A categorical predictor variable has qualitative values representing one of a finite number of categories. 
@@ -614,3 +613,25 @@ An **interaction term** is two predictor variables multiplied together and used 
 ### Binary Responses
 A binary response variable is a response variable that has only two possible outcomes. Ex: Researchers wish to develop a model to predict whether a patient rejects a kidney transplant. The outcome is binary, because the patient either rejects the kidney or not. A binary response variable typically uses 0 and 1 to represent the two possible outcomes. Ex: Y = 1 if the patient rejects the kidney and 0 if the patient does not reject the kidney.
 - *Ex.As in linear regression, interest is in modeling or predicting the binary response variable using one (or more) predictor variables. Ex: The binary response is whether a retired baseball player was inducted into the baseball Hall of Fame, and the predictor variables are career performance statistics such as hits, home runs, and runs scored. The binary response is a 1 if the player is in the Hall of Fame and a 0 if not. The plot below shows the Hall of Fame status for the predictor variable Hits (number of hits in the player's career).*
+### The expected value of a binary response
+The **population simple linear regression function** is E(Y) = β0 + β1X, where β0 and β1 are regression parameters. 
+### The population logistic regression model
+- S-curve
+  - Multiple functions could model this "S" shape. The logistic regression model is a popular choice.
+## Wald Tests
+### Wald Tests of logistic regression parameters
+### Likelihood Ratio (LR) test
+Compares two nested models, which means that all predictors in the smaller model are contained in the second, larger, model.
+- *Ex: A model to predict heart disease includes two predictors: age and sex. The LR test is used to compare the two predictor model to a second model, which includes age and sex plus two additional predictors: heart rate and blood pressure. The null hypothesis is that all the additional parameters are zero, and the alternative hypothesis is at least one parameter is not zero. Failing to reject the null hypothesis using the LR test suggests that none of the additional variables in the second model are useful in predicting the response.*
+### Overall model LR test
+The LR test can replace the F test for a linear regression model. The overall model LR test compares the model with predictor variables to a model with only the intercept. Thus, the overall model test is a special case of the general LR test. Two models that can be compared are a smaller model with only the intercept parameter β0 and a larger model with both intercept and slope parameters β0 and β1. In this case, the LR test and Wald test have the same hypotheses because only one predictor is added to the model. However, unlike the F and t tests for linear regression, the LR and Wald tests do not provide the exact same results. In general, the two tests produce very similar results. In rare cases where the conclusions differ, the LR test is preferred. 
+### Hosmer-Lemeshow goodness of fit (GOF) test
+Residual plots provide information about poor predictions. If a large number of observations are poorly fit, the model would not be very useful. The Hosmer-Lemeshow goodness of fit (GOF) test assesses whether the model predictions are close to the observed values of Y, which are either 0 or 1. The test considers groups of observations based on predicted probabilities. For a given group, the expected number of values with Y=1 is compared to the observed number. The null hypothesis of the test is that the model fits the data well. The test statistic adds up quantities based on the differences in observed and expected values, which makes the GOF test similar to a standard chi-square test. Thus, a poorly fit model gives rise to a large test statistic, which leads to the rejection of the null hypothesis.
+### Influential observations
+- Outlier
+- High leverage observation
+### Classification using logistic regression
+In some applications, the goal of the logistic regression model is to predict whether the binary response Y takes on a value of 0 or 1. Predicting the category of a categorical response is known as classification. When classification is the goal of the analysis, a cut point is chosen to determine which category to predict. Ex: A player with predicted probability at or above the cut point of 0.5 can be classified as a Hall of Fame player, Y=1. Players with predicted probabilities below 0.5 can be classified as not in the Hall of Fame, Y=0. The choice of cut point impacts how well the model classifies, but the types of algorithms for choosing the cut point are beyond the scope of this material. A 2x2 classification table is useful for assessing how well the model classifies. The rows of the table are the classification categories based on the model, and the columns are the observed categories. Measures commonly used to help evaluate the classification results include sensitivity, specificity, and the area under the ROC curve. A summary of each measure is given below.
+-	**Sensitivity** is the percentage of correctly classified observations with the desired outcome, Y=1. Ex: Percentage of players at or above the probability cut point, and thus classified as Hall of Famers, who are actually in the Hall of Fame.
+-	**Specificity** is the percentage of correctly classified observations without the desired outcome, Y=0. Ex: Percentage of players below the cut point, and thus classified by the model as not Hall of Famers, who are actually not in the Hall of Fame.
+-	The **ROC (Receiver Operating Characteristic) curve** plots the sensitivity vs. 1 minus the specificity for all possible cut points. The area under the ROC curve, referred to as AUC, is an indicator of how well the model distinguishes between a Y=0 and Y=1. An AUC of 0.5 means that the model performs better than chance. As a general rule, AUC > 0.7 is acceptable, AUC > 0.8 is excellent, and AUC > 0.9 is outstanding.
