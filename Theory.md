@@ -520,14 +520,43 @@ An eigenvalue is the change in the vector length after an eigenvector is multipl
   - *e.g. A matrix with 2x2 elements must have 2 eigenvalues, a 3x3 matrix has 3 eigenvalues.*
 ### Finding eigenvectors
  [1.0 0.9][v1,1] = λ[v1,1]  
- [0.9 1.0][v1,2]    [v1,2]  
-First eigenvalue is λ = 1.9 
- 1.0(v1,1) + 0.9(v1,2) = 1.9(v1,1)  
- 0.9(v1,1) + 1.0(v1,2) = 1.9(v1,2)  
- 0.9(v1,2) = 0.9(v1,1)  
- v1,1 = v1,2
+ [0.9 1.0][v1,2]....[v1,2]  
+First eigenvalue is λ = 1.9  
+1.0(v1,1) + 0.9(v1,2) = 1.9(v1,1)  
+0.9(v1,1) + 1.0(v1,2) = 1.9(v1,2)  
+0.9(v1,2) = 0.9(v1,1)  
+v1,1 = v1,2
 ### Creating principal components in two dimensions
 The first principal component is created from the eigenvector that comes from the largest eigenvalue. The second principal component can be found using the next largest eigenvalue and eigenvector. Ex: The principal components for the example above are given by the two equations below.
 - *Assume that one of the input variables had a value X1 = 0.5 and X2 = 0.3. What are hte principal component values for a data point created using the principal components.
   - The first principal component is Z1 = X1 + X2 = 0.5 + 0.3 = 0.8
-  - The second principal component is Z2 = -X1 + X2 = -0.5 +0.3 = -0.2
+  - The second principal component is Z2 = -X1 + X2 = -0.5 + 0.3 = -0.2
+## Extending PCA to more variables
+### Three variables
+Principal component analysis works best in problems with large numbers of variables. A three variable example of principal component analysis is not significantly different from a two variable example.  
+
+A best practice is to **standardize variables** when conducting a principal component analysis. 
+  - **Standardized variable**: is a variable that has been adjusted to have a mean of zero and a standard deviation of one.  
+    - Standardizing variables is accomplished by finding the mean and standard deviation of the input variables. The mean is then subtracted from each of the original input variable values. These new values are divided by the standard deviation of the sample to rescale the distribution. Standardizing all variables in the data set keeps the same correlation matrix and forces the input variables to be on similar scales. 
+### Principal component analysis for many variables
+Principal component analysis is best used with data with many input variables with unclear relations. The method of calculating principal components does not change with increasing numbers of input variables. First, the eigenvalues and the corresponding eigenvectors should be calculated. Then, the principal components are calculated, and the data is transformed into the principal components.
+## Determining the number of components
+### Selecting components
+- **Advantage of PCA**: Reducing the number of variables in a large data set.
+- Using a correlation matrix and standardized variables means that any eigenvalue > 1 = more variability in the data than a single variable. 
+- An eigenvalue < 1 = less variability than a single variable. 
+- Keeping eigenvalues greater than 1 is a good practice.
+### Scree plot
+A scree plot is a scatterplot of eigenvalues for each principal component, commonly used to visually select how many principal components to keep, by keeping components before the bend of the curve where eigenvalues level off.
+## Interpreting principal components
+### Covariance matrix
+**Use**: If several variables' ranges don't vary much but one variable constantly gets the same value, standardization will over-emphasize small changes in those several variables.
+### Understanding principal components
+The individual weighting of each input variable in the principal components aids in the interpretation of each principal component. The weighting of each variable in the principal components shows the strength of the effect that the original variable has on the principal component. 
+  - *Ex: A college admissions committee identified four criteria that determine whether a student will be offered admissions.*
+  - **Calculating the weight of input variable**: if we are calculating the first principle component, Eigenvalue 1/ Sum(eigenvalues 2-5).
+- A **principal component loading plot** displays the weight of each input variable between a pair of principal components.
+The loading plot is created from two principal components. The weight of an input variable for each principal component is used as the coordinates in the scatter plot. 
+  - *Ex: The weight of student GPA is 0.5083537 for the first principal component and 0.4683627 for the second principal component. The loading plot draws a line from the origin to each coordinate representing an input variable. The figure below provides a way to visualize the importance of each variable to a principal component and can provide some insight into the meaning of each principal component.*
+### Factor loadings
+The correlation between the original data and the new principal component. The factor loadings can be obtained by calculating the correlation coefficients between the principal component and each of the input variables.
