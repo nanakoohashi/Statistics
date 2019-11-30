@@ -511,3 +511,23 @@ Non-zero vector v that, when multiplied with the matrix, results in a vector tha
 An eigenvalue is the change in the vector length after an eigenvector is multiplied by a matrix. 
 - In PCA, the eigenvector with the largest eigenvalue becomes the first principal component, the second largest becomes the second, etc. 
 - Each component's eigenvalue is that component's variability. 
+- A = λ[I]
+  - A = matrix
+  - λ = eigenvalue
+  - I = identity matrix
+- det|A - λI| = 0  
+- The number of eigenvalues = the number of equations 
+  - *e.g. A matrix with 2x2 elements must have 2 eigenvalues, a 3x3 matrix has 3 eigenvalues.*
+### Finding eigenvectors
+ [1.0 0.9][v1,1] = λ[v1,1]  
+ [0.9 1.0][v1,2]    [v1,2]  
+First eigenvalue is λ = 1.9 
+ 1.0(v1,1) + 0.9(v1,2) = 1.9(v1,1)  
+ 0.9(v1,1) + 1.0(v1,2) = 1.9(v1,2)  
+ 0.9(v1,2) = 0.9(v1,1)  
+ v1,1 = v1,2
+### Creating principal components in two dimensions
+The first principal component is created from the eigenvector that comes from the largest eigenvalue. The second principal component can be found using the next largest eigenvalue and eigenvector. Ex: The principal components for the example above are given by the two equations below.
+- *Assume that one of the input variables had a value X1 = 0.5 and X2 = 0.3. What are hte principal component values for a data point created using the principal components.
+  - The first principal component is Z1 = X1 + X2 = 0.5 + 0.3 = 0.8
+  - The second principal component is Z2 = -X1 + X2 = -0.5 +0.3 = -0.2
